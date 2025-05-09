@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aternos Style Page</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f3f3f3;
+      color: #2489db;
+    }
+
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      position: relative;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .center-text {
+      text-align: center;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .play-button {
+      margin-top: 2rem;
+      background: #2489db;
+      color: white;
+      padding: 0.6rem 1rem;
+      border-radius: 5px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      background-color: #f3f3f3;
+      border-bottom: 2px solid #2c3e50;
+      z-index: 10;
+    }
+
+    .nav-container a {
+      margin: 0 1rem;
+      font-weight: bold;
+      color: #2489db;
+      text-decoration: none;
+    }
+
+    .content {
+      height: 200vh;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="logo">🌐 ATERNOS</div>
+    <div class="center-text">
+      Minecraft servers.<br>
+      Free. Forever.
+    </div>
+    <div class="play-button">🎮 Play</div>
+  </section>
+
+  <!-- Sticky Navbar -->
+  <div class="nav-container">
+    <a href="#">What?</a>
+    <a href="#">Facts</a>
+    <a href="#">Features</a>
+    <a href="#">Team</a>
+    <div class="play-button">🎮 Play</div>
+  </div>
+
+  <div class="content">
+    <p>เนื้อหาหน้าถัดไป...</p>
+    <p>เลื่อนดูเพื่อทดสอบ Sticky Navbar</p>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Play, sans-serif;
+    background-color: #f0f0f0;
+    font-weight: 700;
+    height: 100%;
+    margin: 0;
+    background: #f0f0f0;
+    font-family: "Roboto Mono", sans-serif;
+}
+ 
+html, body {
+    height: 100%;
+}
+ 
+body html{
+    height: 100%;
+}
+.container {
+    height: 100%;  
+}
+ 
+/* splash */
+ 
+.splash {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+ 
+ 
+/*-----------------------------------*\
+  #langswitch
+\*-----------------------------------*/
+ 
+.langswitch {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    text-align: right;
+    z-index: 99;
+}
+ 
+.langswitch-opener {
+    color: #2b87d3;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    right: 0px;
+    border: 2px;
+    padding: 8px 12px;
+    display: inline-block;
+}
+ 
+.langswitch-opener:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04));
+}
+ 
+ 
+ 
+/*-----------------------------------*\
+  #logo
+\*-----------------------------------*/
+ 
+.opnav-logo-img {
+    width: 100%;
+    margin-bottom: -3px;
+}
+ 
+.splash-logo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 120px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    width: 360px;
+    z-index: 99;
+    box-sizing: content-box;
+}
+ 
+/*-----------------------------------*\
+  #menu
+\*-----------------------------------*/
+ 
+ 
+ 
+* {
+    text-decoration: none;
+    font-family: Play, sans-serif;
+}
+ 
+.splash-footer {
+    z-index: 1;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background: #f0f0f0;
+}
+
+.splash-footer.ontop {
+    position: fixed;
+    border-top: 1px solid #2b3943;
+}
+.splash-footer.ontop .splash-logo {
+    position: relative;
+}
+
+
+ 
+/*-----------------------------------*\
+  #full screen
+\*-----------------------------------*/
+ 
+ 
+ 
+.centertext-text {
+    color: #2b87d3;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;  
+}
+ 
+ 
+ 
+/*-----------------------------------*\
+  #navbar
+\*-----------------------------------*/
+
+.splash-menu {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    padding: 0px 40px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+.splash-menu-left {
+    padding-left: 40px;
+    color: #2b87d3;
+    font-size: 18px;
+}
+
+.splash-menu a {
+    color: #2b87d3;
+    list-style-type: none;
+    font-size: 30px;
+    float: left;
+    margin-left: 45px
+}
+
+.splash-menu .mod-signup {
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: #f0f0f0;
+    background: #2d87d3;
+    display: inline-block;
+}
+
+
+
+
+ 
+/*-----------------------------------*\
+  #test row
+\*-----------------------------------*/
+ 
+.new-section {
+    width: 100%;
+    height: 100vh; /* ใช้ความสูงเต็มหน้าจอ */
+    background-color: #e0e0e0; /* สีพื้นหลัง */
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    text-align: center;
+}
+ 

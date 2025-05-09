@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script>
+        // แสดงความกว้างของหน้าจอ
+console.log("Screen width: " + window.innerWidth + "px");
+
+// แสดงความกว้างขององค์ประกอบ
+const element = document.querySelector('.tetris');
+console.log("Tetris width: " + element.offsetWidth + "px");
+    </script>
+</head>
+<body>
+    <div class="header-logo">
+        <img src="https://aternos.org/front/aternos/img/logo.svg" alt="">
+    </div>
+    <div class="header-language">
+        <div class="langswitch">
+            <div class="langswitch-opener">
+                <i class="fas fa-globe-americas"></i><span class="u-hide-tiny"> Language <i class="fas fa-chevron-down"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="header-content">
+        <h1>Minecraft servers.<br/>
+            Free. Forever.</h1>
+    </div>
+    <nav>
+        <div class="menu">
+            <a href="#">What?</a>
+            <a href="#">Facts</a>
+            <a href="#">Features</a>
+            <a href="#">Team</a>
+            <a href="#" class="icon-menu"><i class="fas fa-gamepad"> Play</i></a>
+        </div>
+    </nav>
+    <div class="row-dark">
+        <div class="row-content">
+            <div class="icontext mod-iconleft">
+                <div class="icontext-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <div class="icontext-text">
+                    <h3>Your personal Minecraft server</h3>
+                    <p>We give you your very own personal Minecraft server, where you can play on with your friends all day and all night.</p>
+                    <a href="#" class="icon-blue"><i class="fas fa-user"></i>  Get yours now  </a>
+                </div>
+            </div?>
+
+            <div class="icontext mod-iconright">
+                <div class="icontext-icon">
+                    <i class="far fa-thumbs-up"></i>
+                </div>
+                <div class="icontext-text">
+                    <h3>For Free</h3>
+                    <p>We are free, and we will always be free for everyone at any time. There is no possibility to pay for anything.</p>
+                    <a href="#" class="icon-blue"><i class="fas fa-shopping-cart"></i>    Pay nothing now</a>
+                </div>
+            </div>
+
+            <div class="icontext mod-iconleft">
+                <div class="icontext-icon">
+                    <i class="fas fa-tv"></i>
+                </div>
+                <div class="icontext-text">
+                    <h3>Easy to use</h3>
+                    <p>We don't know, why it could be complicated to own a Minecraft server. At Aternos it is just as easy as pressing a button.</p>
+                    <a href="#" class="icon-blue"><i class="fa fa-hand-pointer"></i>     Press a button now  </a>
+                </div>
+            </div>
+
+            <div class="icontext mod-iconright">
+                <div class="icontext-icon">
+                    <i class="fas fa-cubes"></i>
+                </div>
+                <div class="icontext-text">
+                        <h3>Built to be played</h3>
+                        <p>We offer you servers that you can actually play and have fun on. Lots of fun. No unnecessary restrictions to steal your time and money. </p>
+                        <a href="#" class="icon-blue"><i class="fas fa-gamepad"></i>      Play now      </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="row-content-2">
+            <div class="tetris">
+                <div class="tetris-row-1">
+                    <div class="number-blue">
+                        <span>118,325,617</span>
+                        <span>Users</span>
+                    </div>
+                </div>
+                <div class="tetris-row-2">
+                    <div class="row-left">
+                        <div class="mod-compact">
+                            <span>1</span>
+                            <span>Million</span><br>
+                            <span>Players every day</span>
+                        </div>
+                    </div>
+                    <div class="row-center">
+                        <div class="number-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="number-button">
+                            <a href="#" class="btn-color"><i class="fas fa-rocket"></i> Start</a>
+                        </div>
+                    </div>
+                    <div class="row-right">
+                        <div class="number-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="number-button">
+                            <a href="#" class="btn-color"><i class="fas fa-user"></i> Sign up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tetris-row-3">
+                    <div class="row-left-play">
+                        <div class="number-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="number-button">
+                            <a href="#" class="btn-color"><i class="fas fa-gamepad"></i> Play</a>
+                        </div>
+                    </div>
+                    <div class="row-right-ram">
+                            <span class="number">222,997</span>
+                            <span class="text">GB RAM</span>
+                    </div>
+                </div>
+                <div class="tetris-row-4">
+                    <div class="row-left-player">
+                        <span class="number">68,634</span>
+                        <span class="text">Players online</span>
+                    </div>
+                    <div class="row-right-player">
+                        <div class="number-icon">
+                            <i class="fas fa-cubes"></i>
+                        </div>
+                        <div class="number-button">
+                            <a href="#" class="btn-color"><i class="fas fa-cubes"></i> Enjoy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+   
+</body>
+</html>
